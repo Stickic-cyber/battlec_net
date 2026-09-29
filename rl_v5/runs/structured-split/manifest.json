@@ -1,0 +1,120 @@
+{
+  "files": {
+    "rl_v5\\base_actions.py": "4591c672584d062e3072ea46be27127768f05945a6290d9c100f0e73e6d7a5bb",
+    "rl_v5\\base_model.py": "bf40de2822480a626f54ee39f923f14f1eb323bc43f89adea45f76601a202a54",
+    "rl_v5\\base_observation.py": "ea59be6da33645b9322b4c455c6c59fccb8b08e7875d2ead7813fb58832fdf53",
+    "rl_v5\\collect.py": "e94fe29c1b2980f5fdbb78f6b1e1d5c53cf2bb8e6d0cd9bd7da8592b7d1b2cf1",
+    "rl_v5\\experiment.py": "ce00566280cf5d7ac1184c31fe61bacc2917985a726b2f37a5885ed94694198f",
+    "rl_v5\\features.py": "b9e70fe67f9fba14d79f4e4d4954e8810e846e68562a3fb4028e10badb119bcb",
+    "rl_v5\\feeding.py": "9b29b84dad3e01a508c530140d09004f41af869207a950db22011c6d120c3749",
+    "rl_v5\\model.py": "d0e58927ebe20f47133e2e2ba48bf3a506a428bc0a81ded16930e2e3b13ea6d6",
+    "rl_v5\\runner.py": "f1da149c6c529fed85be04d606583eb7709db03b7541d598a258eec037536c79",
+    "rl_v5\\runtime.py": "b2823e4e6ea3879e309c91f15a95c70be1934c2ad3972562a81c49a1fef91086",
+    "rl_v5\\test_v5.py": "64f0abf9880c75920f5bf63bf442f094cfc63cdf1766df9b41750643cd15c8ef",
+    "rl_v5\\training.py": "1d32928e8dde3c3d30c83bb421d563100ed64e66b3f3038a90966a33d19a379c",
+    "\u65b9\u68482-v2\\helper.py": "3d92066a1a1f2d4dde2f2b8a1c53d76d2843062b2ef62a0b32a9cfe92b62907a",
+    "\u65b9\u68482-v2\\hybrid.py": "e3fc825dab470d9908e6408a987017f21e63a20b067006b583805fad03f8293d",
+    "\u65b9\u68482-v2\\main.py": "4884333142d2f55df8415d66803c8baaf7f44747e24b94c630a047d2b5f181b4",
+    "\u65b9\u68482-v2\\optimizations.py": "f992c1bd9135e9c37ff6d47be3454b7e1aceea4acdaeacf74c130ff9897e0b2a",
+    "\u65b9\u68482-v2\\policy_numpy.py": "baf3bef5f85a42dc59c1c12e4e915426f8b934958cbfc605e35858d85e718b83",
+    "\u65b9\u68482-v2\\rule_core.py": "00831a3172e0f8ef369c14ea2b8aa3ffcf2cb58727e35a8ccc217e7fcb829e02",
+    "rl_v5\\config.json": "9d4d13b85162dd6e7f5d9c62df1c79d96f97d7d47cb2ca35c04d16868b06a794",
+    "\u65b9\u68481\\main.py": "8741bed917133ca04432e01861e4bb70aeaae8844608385ce1dd830e9e891f8c",
+    "\u65b9\u68481\\helper.py": "3d92066a1a1f2d4dde2f2b8a1c53d76d2843062b2ef62a0b32a9cfe92b62907a",
+    "rl_v4\\runs\\teacher-split\\spatial-ppo-4.pt": "cb0edcb6f0256b2c5ddcd40573639456a1e07b94eee042d4dc9f81b364ec6a67",
+    "rl_v4\\runs\\teacher-split\\gru-initial.pt": "8418c9db61ef4ff8642f76661d1dc72e8176266bd4490ffbb68a7a4d8340f1ed",
+    "rl_v4\\actions.py": "4591c672584d062e3072ea46be27127768f05945a6290d9c100f0e73e6d7a5bb",
+    "rl_v4\\collect.py": "3190abaf2d5200ea5f63d98359f2c49985494be81333256688b442216e9d165e",
+    "rl_v4\\experiment.py": "9cc0f50328dac3015d8ef84689c9ad92d2180df56296ddd425550ea09af86ed4",
+    "rl_v4\\model.py": "f29f251b5d08b9066433f96a85498bd5895aef7d4b9167517608fa2de0b9b404",
+    "rl_v4\\observation.py": "ea59be6da33645b9322b4c455c6c59fccb8b08e7875d2ead7813fb58832fdf53",
+    "rl_v4\\runner.py": "732331f4efc7145d24f9380706a1bd258a90ff29c5b3b77b413f9964de12ec29",
+    "rl_v4\\runtime.py": "50901564caeb1ccaef42ae94b1d96f90cbabee84b62966d6c3218c6772a5a8ef",
+    "rl_v4\\test_v4.py": "7dba45e8341031424020b2eb7302234b99c8a0148786ab37dd9d819e0172ea80",
+    "rl_v4\\training.py": "0faf5f91198a8ad439b6357056b8ff068046684be62cb8270075fe8c29892c0e",
+    "maps\\arena.map": "b4bab09603289c2d186ca94d6cf5362e5cc8f24637736c497d9651c0dd921937",
+    "maps\\autarky.map": "35737755c5a3123fcd4c3fd1cf1ecb08513adf9ac14c351f00f76c23e9bd6dbd",
+    "maps\\big_empty.map": "6cb3b7be72a4e27ed19363e9009d46742851709f701e61d73b56437314fdd827",
+    "maps\\Colosseum.map": "c7549a41ea26600f613a7d906e5c73e90303f3bc037b28d8aa2751cd17819772",
+    "maps\\default.map": "6bd7abf2ed51a7f667552c243ad038f4177e450cf2f9dd9be52f826f9e526f95",
+    "maps\\default_small.map": "8ac4b2eedcf19f8544ab1866acfcbc628b3cb5ff2df87d80aa682dcb5aa9df19",
+    "maps\\devil.map": "a09e8f2d3bdd1e40fad31a0ecdf00166cd1090c232c56dcc2557729de737f6aa",
+    "maps\\dilemma.map": "d76d7ad9ada3a8d089b52f4a973e7e9acf7ae4b7f695e9f018caf6ae75bdb109",
+    "maps\\queen_of_spades.map": "126d71b46443268596285918d910b7f8d875bf3028ca9c5ff6bad97b4e868938",
+    "maps\\schooltime.map": "726c404f3b34b4ed7b21cef83628407e70b717cd919f114e4a0e57f7f6d66520",
+    "maps\\stronghold.map": "c83cb7579e89fff0064b075f38250fa06487a10b6ddf320f6c57d63a84e9f32c",
+    "maps\\trauma.map": "dcf39d713c060e5ded2d031a7ffe1a27ea60fe4b72ff8fb3fffbabc4f81e2066",
+    "maps\\trophy.map": "5f1f6b23d6edb944954a9a31b95f229fd9966bec0875a9f04bca680aa3de33f5",
+    "\u65b9\u68482-v1\\weights.bin": "72fe443ae2472af0cf7fbad35efce503aa6720f0d00e54dc115601139aa6cfc6",
+    "\u65b9\u68482-v2\\weights.bin": "72fe443ae2472af0cf7fbad35efce503aa6720f0d00e54dc115601139aa6cfc6",
+    "rl_v1\\runs\\v1-first\\deployment-best.npz": "726ff4d55d5ec440b5e9a1e8848757718937a28e01abd2d64ff591ca5b184f7d"
+  },
+  "config": {
+    "version": 5,
+    "training_seeds": [
+      9201,
+      9203
+    ],
+    "updates": 4,
+    "train_maps": [
+      "arena.map",
+      "default_small.map",
+      "autarky.map",
+      "schooltime.map"
+    ],
+    "baseline_maps": [
+      "arena.map",
+      "schooltime.map"
+    ],
+    "baseline_seed": 9151,
+    "rollout_seeds": [
+      [
+        9211,
+        9213,
+        9217,
+        9221
+      ],
+      [
+        9231,
+        9233,
+        9237,
+        9241
+      ]
+    ],
+    "validation_maps": [
+      "dilemma.map",
+      "queen_of_spades.map"
+    ],
+    "validation_seeds": [
+      9411,
+      9417
+    ],
+    "test_maps": [
+      "Colosseum.map",
+      "devil.map"
+    ],
+    "test_seeds": [
+      9511,
+      9517
+    ],
+    "lr": 0.0003,
+    "max_lr": 0.0006,
+    "epochs": 4,
+    "batch_size": 256,
+    "clip": 0.2,
+    "entropy": 0.01,
+    "aux_coef": 0.2,
+    "preference_coef": 0.05,
+    "value_coef": 0.5,
+    "imitation": 0.0,
+    "kl_stop": 0.03,
+    "reward": "Terminal team win/draw/loss only, undiscounted Monte Carlo; match-balanced weighting. Auxiliary predictions of 20-round child/parent survival and observed positive net growth; no split-count or death reward.",
+    "scope": "Only spatial-ppo and gru-ppo families; two training seeds each. Frozen v4 movement weights and original observation path. New tail-map/candidate encoder trains separately. Rules-only dynamic feeding evaluated after split selection.",
+    "adaptation": "From update 3, double learning rate up to 0.0006 only if preceding training-state greedy rule disagreement is below 0.5%; never inspect independent tests for adaptation.",
+    "selection": "Select original rule, aggressive split rule or one of two trained checkpoints per architecture by 8 validation cases; ties prefer original, then aggressive, then lower training seed. Evaluate dynamic feeding on 4 matched validation cases, ties retain original. Freeze all choices before 8 independent tests per architecture. Independent test also includes a matched original-rule control when selected policy differs; these outcomes never alter selection."
+  },
+  "python": "3.11.7",
+  "torch": "2.6.0+cu124",
+  "unswbc": "1.1.0",
+  "protocol": "Native CPU teacher against original official SandboxBot. One fresh worker per match. All choices frozen before independent tests."
+}

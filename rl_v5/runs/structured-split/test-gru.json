@@ -1,0 +1,401 @@
+[
+  {
+    "map": "Colosseum.map",
+    "side": "A",
+    "seed": 9511,
+    "reward": 1,
+    "result": {
+      "rounds": 272,
+      "winner": "A",
+      "end_reason": 0,
+      "a_dragons": 44,
+      "b_dragons": 0,
+      "a_length": 132,
+      "b_length": 0,
+      "events": 59503
+    },
+    "sources": {
+      "network_move": 5329,
+      "network_split": 5,
+      "rule_move": 379,
+      "rule": 1543
+    },
+    "audit": {
+      "opportunities": 1881,
+      "rule_recommendations": 0,
+      "opportunity_bucket_0": 487,
+      "gate_disagreements": 5,
+      "strategic_splits": 5,
+      "split_bucket_0": 5,
+      "child_segments": 10,
+      "different_sizes": 0,
+      "protected_splits": 167,
+      "opportunity_bucket_1": 894,
+      "opportunity_bucket_2": 500
+    },
+    "errors": [],
+    "lineage_count": 172,
+    "lineage_errors": [],
+    "telemetry_path": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\episodes\\test-gru-0.telemetry.json",
+    "telemetry_sha256": "4a7804890811fe8b798dfed175dfd09e4d49325dee7a8427ee7954ebae246683",
+    "captures": [],
+    "prefix_sha256": "5e279f3ddad796d379a78f6e6325e0cd48992d1ab83e2c2a0be62ca2947386e5",
+    "opponent_budget": {
+      "max_opponent_cpu": 82956703,
+      "max_opponent_memory": 21757952,
+      "opponent_calls": 1009
+    },
+    "elapsed_seconds": 216.067
+  },
+  {
+    "map": "Colosseum.map",
+    "side": "B",
+    "seed": 9511,
+    "reward": 1,
+    "result": {
+      "rounds": 298,
+      "winner": "B",
+      "end_reason": 0,
+      "a_dragons": 0,
+      "b_dragons": 50,
+      "a_length": 0,
+      "b_length": 137,
+      "events": 66962
+    },
+    "sources": {
+      "network_move": 5715,
+      "network_split": 5,
+      "rule": 1807,
+      "rule_move": 327
+    },
+    "audit": {
+      "opportunities": 1679,
+      "rule_recommendations": 0,
+      "opportunity_bucket_0": 374,
+      "gate_disagreements": 5,
+      "strategic_splits": 5,
+      "split_bucket_0": 5,
+      "child_segments": 10,
+      "different_sizes": 0,
+      "protected_splits": 195,
+      "opportunity_bucket_1": 701,
+      "opportunity_bucket_2": 604
+    },
+    "errors": [],
+    "lineage_count": 200,
+    "lineage_errors": [],
+    "telemetry_path": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\episodes\\test-gru-1.telemetry.json",
+    "telemetry_sha256": "70014bba40b93ed26747f84c1d85a11ef237e130aa8b0d76002250470cfaf2f6",
+    "captures": [],
+    "prefix_sha256": "5df98ce2873fb0433448f0acf3c6b3645b37438f8fa181700bb7cc283f2b3a20",
+    "opponent_budget": {
+      "max_opponent_cpu": 84605535,
+      "max_opponent_memory": 21757952,
+      "opponent_calls": 1455
+    },
+    "elapsed_seconds": 218.388
+  },
+  {
+    "map": "devil.map",
+    "side": "A",
+    "seed": 9511,
+    "reward": -1,
+    "result": {
+      "rounds": 499,
+      "winner": "B",
+      "end_reason": 1,
+      "a_dragons": 9,
+      "b_dragons": 13,
+      "a_length": 45,
+      "b_length": 92,
+      "events": 158806
+    },
+    "sources": {
+      "network_move": 3865,
+      "rule_move": 841,
+      "network_split": 16,
+      "rule": 1155
+    },
+    "audit": {
+      "opportunities": 2414,
+      "rule_recommendations": 0,
+      "opportunity_bucket_0": 253,
+      "gate_disagreements": 16,
+      "strategic_splits": 16,
+      "split_bucket_0": 10,
+      "child_segments": 33,
+      "different_sizes": 0,
+      "opportunity_bucket_1": 207,
+      "split_bucket_1": 5,
+      "protected_splits": 116,
+      "opportunity_bucket_2": 533,
+      "opportunity_bucket_3": 713,
+      "split_bucket_2": 1,
+      "opportunity_bucket_4": 708,
+      "feed_detonations": 2
+    },
+    "errors": [],
+    "lineage_count": 132,
+    "lineage_errors": [],
+    "telemetry_path": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\episodes\\test-gru-2.telemetry.json",
+    "telemetry_sha256": "c0ac3e48455d68953f33da57dfb5494af72adde3616fe957d07807139beac9ca",
+    "captures": [],
+    "prefix_sha256": "dffd3a2d69c96b2606e95194c0ad5a2df08954953fec96f3122fe2d43f5ec491",
+    "opponent_budget": {
+      "max_opponent_cpu": 82296316,
+      "max_opponent_memory": 21757952,
+      "opponent_calls": 15167
+    },
+    "elapsed_seconds": 522.689
+  },
+  {
+    "map": "devil.map",
+    "side": "B",
+    "seed": 9511,
+    "reward": 1,
+    "result": {
+      "rounds": 499,
+      "winner": "B",
+      "end_reason": 1,
+      "a_dragons": 1,
+      "b_dragons": 21,
+      "a_length": 3,
+      "b_length": 114,
+      "events": 170751
+    },
+    "sources": {
+      "network_move": 10633,
+      "rule_move": 2307,
+      "rule": 6162,
+      "network_split": 8
+    },
+    "audit": {
+      "opportunities": 4883,
+      "rule_recommendations": 0,
+      "opportunity_bucket_0": 320,
+      "gate_disagreements": 8,
+      "strategic_splits": 8,
+      "split_bucket_0": 8,
+      "child_segments": 17,
+      "different_sizes": 0,
+      "opportunity_bucket_1": 1178,
+      "protected_splits": 663,
+      "opportunity_bucket_2": 884,
+      "opportunity_bucket_3": 1329,
+      "opportunity_bucket_4": 1172,
+      "feed_detonations": 15
+    },
+    "errors": [],
+    "lineage_count": 671,
+    "lineage_errors": [],
+    "telemetry_path": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\episodes\\test-gru-3.telemetry.json",
+    "telemetry_sha256": "98085c92692f3a462431aaac94eb19c40112ace4f002c44fc05b68d72e400da4",
+    "captures": [],
+    "prefix_sha256": "99d3a6dc50f0c2a07cf9bcc7fefc6305e376dae2c29401ff85e11709bbe0e638",
+    "opponent_budget": {
+      "max_opponent_cpu": 76702594,
+      "max_opponent_memory": 21757952,
+      "opponent_calls": 3676
+    },
+    "elapsed_seconds": 184.568
+  },
+  {
+    "map": "Colosseum.map",
+    "side": "A",
+    "seed": 9517,
+    "reward": 1,
+    "result": {
+      "rounds": 335,
+      "winner": "A",
+      "end_reason": 0,
+      "a_dragons": 40,
+      "b_dragons": 0,
+      "a_length": 125,
+      "b_length": 0,
+      "events": 73995
+    },
+    "sources": {
+      "network_move": 5440,
+      "network_split": 5,
+      "rule": 1680,
+      "rule_move": 501
+    },
+    "audit": {
+      "opportunities": 2268,
+      "rule_recommendations": 0,
+      "opportunity_bucket_0": 450,
+      "gate_disagreements": 5,
+      "strategic_splits": 5,
+      "split_bucket_0": 5,
+      "child_segments": 10,
+      "different_sizes": 0,
+      "protected_splits": 212,
+      "opportunity_bucket_1": 723,
+      "opportunity_bucket_2": 788,
+      "opportunity_bucket_3": 307
+    },
+    "errors": [],
+    "lineage_count": 217,
+    "lineage_errors": [],
+    "telemetry_path": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\episodes\\test-gru-4.telemetry.json",
+    "telemetry_sha256": "289c7dd0f66791fc133466a89856ed689cf381d9a74f83bb2b0bea66683cba64",
+    "captures": [],
+    "prefix_sha256": "cf20f5c1527aa081248fc58c74aac49b87e92177cb79dbee361023ba4f942e7a",
+    "opponent_budget": {
+      "max_opponent_cpu": 91982707,
+      "max_opponent_memory": 21757952,
+      "opponent_calls": 2628
+    },
+    "elapsed_seconds": 87.774
+  },
+  {
+    "map": "Colosseum.map",
+    "side": "B",
+    "seed": 9517,
+    "reward": 1,
+    "result": {
+      "rounds": 297,
+      "winner": "B",
+      "end_reason": 0,
+      "a_dragons": 0,
+      "b_dragons": 46,
+      "a_length": 0,
+      "b_length": 123,
+      "events": 65714
+    },
+    "sources": {
+      "network_move": 5240,
+      "network_split": 5,
+      "rule_move": 383,
+      "rule": 1590
+    },
+    "audit": {
+      "opportunities": 1832,
+      "rule_recommendations": 0,
+      "opportunity_bucket_0": 430,
+      "gate_disagreements": 5,
+      "strategic_splits": 5,
+      "split_bucket_0": 5,
+      "child_segments": 10,
+      "different_sizes": 0,
+      "protected_splits": 180,
+      "opportunity_bucket_1": 814,
+      "opportunity_bucket_2": 588
+    },
+    "errors": [],
+    "lineage_count": 185,
+    "lineage_errors": [],
+    "telemetry_path": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\episodes\\test-gru-5.telemetry.json",
+    "telemetry_sha256": "d3a873be26cf3db28be7cb5810c25840d15dba485dc23509fbac8830f636b493",
+    "captures": [],
+    "prefix_sha256": "a1892b9000b66d7d04bf75dcabe5570d7a83b0bd72b39c920f52ae36cc4c1af3",
+    "opponent_budget": {
+      "max_opponent_cpu": 88902148,
+      "max_opponent_memory": 21757952,
+      "opponent_calls": 1889
+    },
+    "elapsed_seconds": 74.263
+  },
+  {
+    "map": "devil.map",
+    "side": "A",
+    "seed": 9517,
+    "reward": 1,
+    "result": {
+      "rounds": 499,
+      "winner": "A",
+      "end_reason": 1,
+      "a_dragons": 20,
+      "b_dragons": 9,
+      "a_length": 111,
+      "b_length": 40,
+      "events": 160445
+    },
+    "sources": {
+      "network_move": 8196,
+      "rule_move": 2027,
+      "network_split": 8,
+      "rule": 4732
+    },
+    "audit": {
+      "opportunities": 4312,
+      "rule_recommendations": 0,
+      "opportunity_bucket_0": 447,
+      "gate_disagreements": 8,
+      "strategic_splits": 8,
+      "split_bucket_0": 8,
+      "child_segments": 16,
+      "different_sizes": 0,
+      "protected_splits": 523,
+      "opportunity_bucket_1": 834,
+      "opportunity_bucket_2": 965,
+      "opportunity_bucket_3": 1061,
+      "opportunity_bucket_4": 1005,
+      "feed_detonations": 8
+    },
+    "errors": [],
+    "lineage_count": 531,
+    "lineage_errors": [],
+    "telemetry_path": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\episodes\\test-gru-6.telemetry.json",
+    "telemetry_sha256": "d429b614e13eceecf33d89bff0df696219fdba82e0c95c31f9ebfbe3f8491ebc",
+    "captures": [],
+    "prefix_sha256": "4f52db4a872ad135cff50b55a6e435746e55c04432d3dcafa29266335ddcfabb",
+    "opponent_budget": {
+      "max_opponent_cpu": 84497415,
+      "max_opponent_memory": 21757952,
+      "opponent_calls": 6314
+    },
+    "elapsed_seconds": 184.43
+  },
+  {
+    "map": "devil.map",
+    "side": "B",
+    "seed": 9517,
+    "reward": 1,
+    "result": {
+      "rounds": 499,
+      "winner": "B",
+      "end_reason": 1,
+      "a_dragons": 7,
+      "b_dragons": 18,
+      "a_length": 40,
+      "b_length": 106,
+      "events": 157309
+    },
+    "sources": {
+      "network_move": 7720,
+      "rule_move": 1894,
+      "rule": 4102,
+      "network_split": 9
+    },
+    "audit": {
+      "opportunities": 3970,
+      "rule_recommendations": 0,
+      "opportunity_bucket_0": 206,
+      "gate_disagreements": 9,
+      "strategic_splits": 9,
+      "split_bucket_0": 9,
+      "child_segments": 19,
+      "different_sizes": 0,
+      "opportunity_bucket_1": 768,
+      "protected_splits": 445,
+      "opportunity_bucket_2": 913,
+      "opportunity_bucket_4": 973,
+      "opportunity_bucket_3": 1110,
+      "feed_detonations": 15
+    },
+    "errors": [],
+    "lineage_count": 454,
+    "lineage_errors": [],
+    "telemetry_path": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\episodes\\test-gru-7.telemetry.json",
+    "telemetry_sha256": "65af34c8974f8c214c260682937deec27e05e64f975c07d09014ab97b011a112",
+    "captures": [],
+    "prefix_sha256": "5c73d332671aaa0f79a99dd16a439d374a9159a39567d7772d7f8fc5fec85a03",
+    "opponent_budget": {
+      "max_opponent_cpu": 90191336,
+      "max_opponent_memory": 21757952,
+      "opponent_calls": 7106
+    },
+    "elapsed_seconds": 176.074
+  }
+]

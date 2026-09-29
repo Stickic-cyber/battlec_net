@@ -1,0 +1,77 @@
+{
+  "sources": {
+    "rl_v5\\base_actions.py": "4591c672584d062e3072ea46be27127768f05945a6290d9c100f0e73e6d7a5bb",
+    "rl_v5\\base_model.py": "bf40de2822480a626f54ee39f923f14f1eb323bc43f89adea45f76601a202a54",
+    "rl_v5\\base_observation.py": "ea59be6da33645b9322b4c455c6c59fccb8b08e7875d2ead7813fb58832fdf53",
+    "rl_v5\\collect.py": "e94fe29c1b2980f5fdbb78f6b1e1d5c53cf2bb8e6d0cd9bd7da8592b7d1b2cf1",
+    "rl_v5\\experiment.py": "ce00566280cf5d7ac1184c31fe61bacc2917985a726b2f37a5885ed94694198f",
+    "rl_v5\\features.py": "b9e70fe67f9fba14d79f4e4d4954e8810e846e68562a3fb4028e10badb119bcb",
+    "rl_v5\\feeding.py": "9b29b84dad3e01a508c530140d09004f41af869207a950db22011c6d120c3749",
+    "rl_v5\\model.py": "d0e58927ebe20f47133e2e2ba48bf3a506a428bc0a81ded16930e2e3b13ea6d6",
+    "rl_v5\\runner.py": "f1da149c6c529fed85be04d606583eb7709db03b7541d598a258eec037536c79",
+    "rl_v5\\runtime.py": "b2823e4e6ea3879e309c91f15a95c70be1934c2ad3972562a81c49a1fef91086",
+    "rl_v5\\test_v5.py": "64f0abf9880c75920f5bf63bf442f094cfc63cdf1766df9b41750643cd15c8ef",
+    "rl_v5\\training.py": "1d32928e8dde3c3d30c83bb421d563100ed64e66b3f3038a90966a33d19a379c",
+    "\u65b9\u68482-v2\\helper.py": "3d92066a1a1f2d4dde2f2b8a1c53d76d2843062b2ef62a0b32a9cfe92b62907a",
+    "\u65b9\u68482-v2\\hybrid.py": "e3fc825dab470d9908e6408a987017f21e63a20b067006b583805fad03f8293d",
+    "\u65b9\u68482-v2\\main.py": "4884333142d2f55df8415d66803c8baaf7f44747e24b94c630a047d2b5f181b4",
+    "\u65b9\u68482-v2\\optimizations.py": "f992c1bd9135e9c37ff6d47be3454b7e1aceea4acdaeacf74c130ff9897e0b2a",
+    "\u65b9\u68482-v2\\policy_numpy.py": "baf3bef5f85a42dc59c1c12e4e915426f8b934958cbfc605e35858d85e718b83",
+    "\u65b9\u68482-v2\\rule_core.py": "00831a3172e0f8ef369c14ea2b8aa3ffcf2cb58727e35a8ccc217e7fcb829e02",
+    "rl_v5\\config.json": "9d4d13b85162dd6e7f5d9c62df1c79d96f97d7d47cb2ca35c04d16868b06a794",
+    "\u65b9\u68481\\main.py": "8741bed917133ca04432e01861e4bb70aeaae8844608385ce1dd830e9e891f8c",
+    "\u65b9\u68481\\helper.py": "3d92066a1a1f2d4dde2f2b8a1c53d76d2843062b2ef62a0b32a9cfe92b62907a",
+    "rl_v5\\refinements\\feeding_v2.py": "c29ccf1686cc9eaf4146028ca9ec5d4d2baa0799c0bb70bd4b2f71c540bb4267",
+    "rl_v5\\refinements\\fine_project.py": "d31ce3616b2cba51fa21517a1d8f1f9dc0ff429be4f73487dbb839da9a5d670a",
+    "rl_v5\\refinements\\followup_experiment.py": "a4439572876759f391684b3ebc40d24b310778ac286edabb13e9b70d503bbbe5",
+    "rl_v5\\refinements\\high_lr_control.py": "f1f062258826c0545d55a38ecff051dee1b83e87ceca2b6f86a84d298da5378c",
+    "rl_v5\\refinements\\parent_guard.py": "8ac448ddd71da70e478ee10bbac45206141712a4079464052949843bbc2e2454",
+    "rl_v5\\refinements\\phase_train.py": "fea0ca23fdc5b4c0a26a0640991fe4ceb86bd339e6ca485435e0edd96510e2ed",
+    "rl_v5\\refinements\\test_feeding_v2.py": "728d00bc3b25bb909d28d2a42984740054cbfc85bfe49ed64f5050a6f9a31f9d"
+  },
+  "protocol": {
+    "pilot_maps": [
+      "arena.map",
+      "schooltime.map"
+    ],
+    "pilot_seed": 9151,
+    "training_maps": [
+      [
+        "arena.map",
+        "default_small.map"
+      ],
+      [
+        "autarky.map",
+        "schooltime.map"
+      ]
+    ],
+    "training_seeds": [
+      9701,
+      9703
+    ],
+    "validation_maps": [
+      "dilemma.map",
+      "queen_of_spades.map"
+    ],
+    "validation_seeds": [
+      9411,
+      9417
+    ],
+    "test_maps": [
+      "Colosseum.map",
+      "devil.map"
+    ],
+    "test_seeds": [
+      9811,
+      9817
+    ],
+    "execution_comparison": "Evaluate refined greedy, refined stochastic, and untrained stochastic-prior split policies on the same 8 validation cases. Stochastic sampling_seed=991, keyed by game seed and dragon ID. This separates learning from random expansion. Select before all new tests.",
+    "tie_rules": "Pilot tie prefers phase weighting. Split ties prefer reference, then refined greedy, untrained stochastic prior, refined stochastic, untrained parent3 prior, refined parent3. Feeding ties prefer original, then dynamic, then dynamic_v2.",
+    "parent_guard": "Added from reference VALIDATION evidence before any independent tests: GRU s9201 made 85/99 splits at length4 into2+2, versus an aggressive rule retaining parent>=3. Compare deterministic refined and initial prior with parent_min=3 on the same eight validation cases. Apply an output probability constraint only; inputs, protected rule splits, and training remain unchanged. If selected, test a matched initial prior with the same constraint and feeding. No other guard thresholds are searched.",
+    "stochastic_test_control": "Whenever the selected policy samples split actions, compare it with the untrained stochastic prior on the same fresh test cases and the SAME selected feeding rule. Reuse rows when the selected policy is that prior. Never use this test to alter selection.",
+    "preference_supervision": "Retain the reference preference coefficient and its verified WLD-changing one-action labels during continuation. No intermediate-growth proxy is converted into a preference label.",
+    "feeding_confirmation": "Screen feeding on 4 paired validation games; confirm the winner on the other 4. Retain original feeding unless the combined 8-game score strictly improves. Choose the preferred architecture on the final combined 8-game validation score before new tests.",
+    "rule": "Never use reference or new independent test outcomes for adjustment or selection. New tests use fresh seeds, not new map geometries."
+  },
+  "reference_results_sha256": "a366c72df2e283a973438047ff8c620e46218267237b2cfbd56c6162575a403a"
+}

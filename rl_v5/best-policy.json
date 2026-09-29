@@ -1,0 +1,44 @@
+{
+  "architecture": "gru",
+  "key": "aggressive",
+  "weights": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\gru-initial-9201.pt",
+  "controller": "aggressive",
+  "feeding": "original",
+  "stochastic": false,
+  "checkpoint_sha256": "2dc768e2e756855af04ab0837861780a2c97a240c499eabda1c8cc10eaecffbb",
+  "frozen_base_sha256": "8daa0f8f4086a1ea70ea32edabc4d56068f639935bf5c81eb92a03e89a7e6c67",
+  "validation": {
+    "wins": 6,
+    "draws": 0,
+    "losses": 2,
+    "points": 6.0,
+    "games": 8
+  },
+  "test": {
+    "wins": 7,
+    "draws": 0,
+    "losses": 1,
+    "points": 7.0,
+    "games": 8
+  },
+  "selection_basis": "Retain reference validation winner; completed refinement validation did not beat it.",
+  "test_protocol": {
+    "source": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\results.json",
+    "maps": [
+      "Colosseum.map",
+      "devil.map"
+    ],
+    "seeds": [
+      9511,
+      9517
+    ],
+    "sides": [
+      "A",
+      "B"
+    ],
+    "new_refinement_tests_run": false
+  },
+  "use": "Local native teacher versus original scheme 1. Official sandbox deployment unverified.",
+  "source_manifest": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\refined-teachers\\manifest.json",
+  "early_stopped": true
+}

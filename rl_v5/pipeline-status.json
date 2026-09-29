@@ -1,0 +1,8 @@
+{
+  "stage": "complete",
+  "time": "2026-09-28 16:03:09",
+  "early_stopped": true,
+  "experiment_protocol_complete": false,
+  "reason": "User requested rapid convergence; no further matches.",
+  "report": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\优化总结.md"
+}

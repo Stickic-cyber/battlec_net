@@ -1,0 +1,64 @@
+{
+  "version": 5,
+  "training_seeds": [
+    9201,
+    9203
+  ],
+  "updates": 4,
+  "train_maps": [
+    "arena.map",
+    "default_small.map",
+    "autarky.map",
+    "schooltime.map"
+  ],
+  "baseline_maps": [
+    "arena.map",
+    "schooltime.map"
+  ],
+  "baseline_seed": 9151,
+  "rollout_seeds": [
+    [
+      9211,
+      9213,
+      9217,
+      9221
+    ],
+    [
+      9231,
+      9233,
+      9237,
+      9241
+    ]
+  ],
+  "validation_maps": [
+    "dilemma.map",
+    "queen_of_spades.map"
+  ],
+  "validation_seeds": [
+    9411,
+    9417
+  ],
+  "test_maps": [
+    "Colosseum.map",
+    "devil.map"
+  ],
+  "test_seeds": [
+    9511,
+    9517
+  ],
+  "lr": 0.0003,
+  "max_lr": 0.0006,
+  "epochs": 4,
+  "batch_size": 256,
+  "clip": 0.2,
+  "entropy": 0.01,
+  "aux_coef": 0.2,
+  "preference_coef": 0.05,
+  "value_coef": 0.5,
+  "imitation": 0.0,
+  "kl_stop": 0.03,
+  "reward": "Terminal team win/draw/loss only, undiscounted Monte Carlo; match-balanced weighting. Auxiliary predictions of 20-round child/parent survival and observed positive net growth; no split-count or death reward.",
+  "scope": "Only spatial-ppo and gru-ppo families; two training seeds each. Frozen v4 movement weights and original observation path. New tail-map/candidate encoder trains separately. Rules-only dynamic feeding evaluated after split selection.",
+  "adaptation": "From update 3, double learning rate up to 0.0006 only if preceding training-state greedy rule disagreement is below 0.5%; never inspect independent tests for adaptation.",
+  "selection": "Select original rule, aggressive split rule or one of two trained checkpoints per architecture by 8 validation cases; ties prefer original, then aggressive, then lower training seed. Evaluate dynamic feeding on 4 matched validation cases, ties retain original. Freeze all choices before 8 independent tests per architecture. Independent test also includes a matched original-rule control when selected policy differs; these outcomes never alter selection."
+}

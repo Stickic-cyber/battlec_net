@@ -1,0 +1,117 @@
+{
+  "selected": {
+    "spatial": {
+      "key": "aggressive",
+      "weights": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\spatial-initial-9201.pt",
+      "controller": "aggressive",
+      "feeding": "original"
+    },
+    "gru": {
+      "key": "aggressive",
+      "weights": "C:\\Users\\songpengju\\Documents\\ChatGPT\\unsw battlecode\\rl_v5\\runs\\structured-split\\gru-initial-9201.pt",
+      "controller": "aggressive",
+      "feeding": "original"
+    }
+  },
+  "validation": {
+    "spatial": {
+      "rule": {
+        "wins": 3,
+        "draws": 0,
+        "losses": 5,
+        "points": 3.0,
+        "games": 8
+      },
+      "aggressive": {
+        "wins": 4,
+        "draws": 0,
+        "losses": 4,
+        "points": 4.0,
+        "games": 8
+      },
+      "ppo-9201": {
+        "wins": 3,
+        "draws": 0,
+        "losses": 5,
+        "points": 3.0,
+        "games": 8
+      },
+      "ppo-9203": {
+        "wins": 3,
+        "draws": 0,
+        "losses": 5,
+        "points": 3.0,
+        "games": 8
+      }
+    },
+    "gru": {
+      "rule": {
+        "wins": 1,
+        "draws": 1,
+        "losses": 6,
+        "points": 1.5,
+        "games": 8
+      },
+      "aggressive": {
+        "wins": 6,
+        "draws": 0,
+        "losses": 2,
+        "points": 6.0,
+        "games": 8
+      },
+      "ppo-9201": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "points": 2.0,
+        "games": 8
+      },
+      "ppo-9203": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 7,
+        "points": 1.0,
+        "games": 8
+      }
+    }
+  },
+  "feeding": {
+    "spatial": {
+      "original": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "points": 2.0,
+        "games": 4
+      },
+      "dynamic": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "points": 1.0,
+        "games": 4
+      }
+    },
+    "gru": {
+      "original": {
+        "wins": 4,
+        "draws": 0,
+        "losses": 0,
+        "points": 4.0,
+        "games": 4
+      },
+      "dynamic": {
+        "wins": 2,
+        "draws": 0,
+        "losses": 2,
+        "points": 2.0,
+        "games": 4
+      }
+    }
+  },
+  "checkpoint_sha256": {
+    "spatial": "e6dda38c8a803c12ece3cb9bd89adcd7834acbf6bb035659fb3a7a5bdaae39c7",
+    "gru": "2dc768e2e756855af04ab0837861780a2c97a240c499eabda1c8cc10eaecffbb"
+  },
+  "tie_rule": "Original rule, aggressive rule, lower training seed; original feeding on ties."
+}

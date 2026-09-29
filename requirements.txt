@@ -1,0 +1,4 @@
+numpy==1.26.4
+torch==2.6.0
+unswbc==1.1.0
+wasmtime==49.0.0
